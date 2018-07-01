@@ -29,6 +29,14 @@ TODO: implement documentation...
 
 ---
 - link:https://github.com/daggerok/serverless-examples[GitHub: daggerok/serverless-examples]
+- link:https://github.com/daggerok/spring-streaming-with-kafka[GitHub: daggerok/spring-streaming-with-kafka]
+- link:https://github.com/daggerok/reactive-data-flow-systems[GitHub: daggerok/reactive-data-flow-systems]
+- link:https://github.com/daggerok/reactive-data-flow-with-kafla-and-tailable-mongodb[GitHub: daggerok/reactive-data-flow-with-kafla-and-tailable-mongodb]
+- link:https://github.com/daggerok/event-driven[GitHub: daggerok/event-driven]
+- link:https://github.com/daggerok/functional-streaming[GitHub: daggerok/functional-streaming]
+- link:https://github.com/daggerok/kafkapp[GitHub: daggerok/kafkapp]
+- link:https://github.com/daggerok/ddd-app[GitHub: daggerok/ddd-app]
+- link:https://github.com/daggerok/spring-kafka-quickstart[GitHub: daggerok/spring-kafka-quickstart]
 
 ---
 ifdef::backend-html5[- link:./index.pdf[Documentation in PFD format]]
