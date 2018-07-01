@@ -1,10 +1,6 @@
 #service:
 #- docker
 
-env:
-  global:
-  - TERM=dumb
-
 language: java
 jdk: oraclejdk8
 
@@ -32,6 +28,11 @@ script:
 - bash gradlew >/dev/null
 
 before_deploy: ./gradlew documentation
+
+env:
+  global:
+  - TERM=dumb
+  - secure: HddUiJBYP3XqGGKucfuXxzMFgHEWX2kZ0EKqKvxqwd9KW5bLoJpnLjcaLp7mJiLv6DOkPvFfHCNIkiK7SZu0vPGLWcogaCua4wWn0dzfz7nUGczL+HeBAqHWGmGskAKQjQDbUn1Q2IdmcIzSVIXe9EuUXRuf5ntZFb10VGoRgmrPoNWic4AwrJf3O33HYHBAyWDdXYJy8wAgqP39UMNDJ6dh9cK6tc7cw/Q3dempLkXews761rZyZt53sHbAEwBs76Ok3veNrI8ArVsmP0DOKDkcw93/4I6MpOrhp6tzKimLIOPBMUBUlhFkzgMMZPvrF9MFkItzKxpmxfnkvVTz3ZM/cZhXEpLvfkV/NCzHI9OdQXLxDPqSCvB62wLDuciZSrGDOmskpUKs+kkbMjxzvWHlRTOF4cMPHRe285sV/Q3WTDPmS+qZXtqoR+YH2YJ/8JtuNaLxdI1tW+lnJ54cbqWCVIhRdnN6SEPDT7VQVHsqGFIyE0mK8ShDe1zGjax2DZhZdg4dhLyQ19wtjZtC6Ujmq71DO4r850y14kqv7DOHnQi5BYS6gqKkhWhstoNlz3jbCw6zbWhIBev4i7LgEskcJVRSOym0AVkI1syAndqlWrgYrgIJFzd0CXNssVc/oRcDTa38CdI0XywgvdThNNw9wcGmkIE5DDIym3mboXI=
 
 deploy:
   provider: pages
