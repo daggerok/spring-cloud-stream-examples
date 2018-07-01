@@ -39,6 +39,9 @@ TODO: implement documentation...
 - link:https://github.com/daggerok/spring-kafka-quickstart[GitHub: daggerok/spring-kafka-quickstart]
 
 ---
+- link:https://github.com/ziwon/kafka-learning[GitHub: ziwon/kafka-learning]
+
+---
 ifdef::backend-html5[- link:./index.pdf[Documentation in PFD format]]
 - link:{github-url}[GitHub repo]
 - link:https://daggerok.github.io/{root-project-name}[GitHub pages]
