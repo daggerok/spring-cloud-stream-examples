@@ -1,0 +1,3 @@
+rootProject.name = 'spring-cloud-stream-examples'
+enableFeaturePreview 'STABLE_PUBLISHING'
+include 'docs'
