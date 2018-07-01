@@ -24,7 +24,11 @@ TODO: implement documentation...
 
 == Links
 
-link:https://www.youtube.com/watch?v=P0SEOL_AGro[Spring Cloud Stream 2.0]
+- link:https://www.youtube.com/watch?v=P0SEOL_AGro[Spring Cloud Stream 2.0]
+- link:https://www.youtube.com/watch?v=TDEVSnjnSR8[Serverless String (Spring Cloud Function)]
+
+---
+- link:https://github.com/daggerok/serverless-examples[GitHub: daggerok/serverless-examples]
 
 ---
 ifdef::backend-html5[- link:./index.pdf[Documentation in PFD format]]
